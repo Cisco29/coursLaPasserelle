@@ -1,0 +1,407 @@
+@font-face {
+    font-family: 'Blog Script pour U';
+    src: local('Blog Script pour U Regular'), local('BlogScriptpourU-Regular'),
+        url('font/subset-BlogScriptpourU-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: local('TT Norms Regular'), local('TTNorms-Regular'),
+        url('font/TTNorms-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: local('TT Norms Bold'), local('TTNorms-Bold'),
+        url('font/TTNorms-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+.logo_blue{
+   color:#0076AF; 
+}
+.super_u.color1{
+    background-color: #64C5E4;
+}
+.u_express.color1{
+    background-color: #66BBBB;
+}
+.hyper_u.color1{
+    background-color: #007D8F;
+}
+.bg_pink{
+    background-color: #FFCBC7;
+}
+.bg_coral{
+    background-color: #FA9088
+}
+.bg_yellow{
+    background-color: #FFEC25;
+}
+.bg_green{
+    background-color: #C3E74C;
+}
+.bg_blue{
+    background-color: #67C6DD;
+}
+.bg_mint{
+    background-color: #6BBFB6;
+}
+.bg_grey{
+    background-color: #EAEAEA;
+}
+.bg_red_event{
+    background-color: #AB1739;
+}
+.bg_green_event{
+    background-color: #007D8F;
+}
+.bg_blue_event{
+    background-color: #164922;
+}
+
+*,:after,:before{
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    padding:0;
+}
+#click{
+    position:absolute;
+    width: 300px;
+    height:250px;
+    overflow:hidden;
+    cursor:pointer;
+}
+#ad{
+    background-color:#FFFFFF;
+    position:absolute;
+    width: 300px;
+    height:250px;
+    overflow:hidden;
+    border:1px solid #000;
+    visibility:hidden;
+    cursor:pointer;
+    overflow:hidden;
+}
+#logo_container {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+}
+#logo_container.hyper_u {
+    position: absolute;
+    width: 97%;
+    height: 56px;
+    background-color: #ffffff;
+    border-radius: 60px;
+    top: 6px;
+}
+#brand_logo{
+    position: absolute;
+    top: 3px;
+    left: 21px;
+    width: 145px;
+}
+#brand_logo_txt {
+    font-family: museo-slab, serif;
+    font-weight: 900;
+    left: 75px;
+    position: absolute;
+    top: 38px;
+    font-size: 0.7em;
+    width: 210px;
+    text-align: left;
+    height: 17px;
+}
+
+#brand_logo.u_express {
+    position: absolute;
+    top: 9px;
+    left: 21px;
+    width: 120px;
+    margin-left: -57px;
+}
+#brand_logo_txt.u_express {
+    left: 75px;
+    text-align: left;
+}
+
+#brand_logo.hyper_u {
+    position: absolute;
+    top: 6px;
+    width: 112px;
+}
+#brand_logo_txt.hyper_u {
+    top: 32px;
+    text-align: center;
+    left: 5%;
+    width: 90%;
+}
+.container_product {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    height: 250px;
+}
+
+#txt_screen1, #txt_screen_end {
+    position: absolute;
+    top: 80px;
+    width: 130px;
+    text-align: left;
+    line-height: initial;
+    padding-top: 20px;
+    font-family: 'museo-slab';
+    font-weight: bold;
+    left: 10%;
+    height: 100px;
+    color: #fff;
+    white-space: initial !important;
+}
+
+#homepage_container, #homepage_container_end {
+    position: absolute;
+    width: 46%;
+    height: 142px;
+    right: 10px;
+    top: 67px;
+}
+
+#homepage, #homepage_end {
+    max-height: 100%;
+    max-width: 80%;
+    position: absolute;
+    box-shadow: -3px 6px 13px #555;
+} 
+#homepage_end {
+    max-height: 140px;
+    width: auto;
+}
+#footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    height: 60px;
+}
+.date_op {
+    font-family: 'TT Norms';
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #000;
+    top: 71px;
+    font-weight: 700;
+    text-align: left;
+    position: absolute;
+    left: 137px;
+    padding: 0px 5px 3px;
+}
+.date{
+    position: absolute;
+}
+#date_op_generique, #date_op_generique_end {
+    left: 25px;
+    color: #fff;
+}
+#date_product1, #date_product2, #date_product3, #date_product4, #date_op_generique_end{
+    opacity: 0;
+}
+.product_container {
+    position: absolute;
+    width: 195px;
+    height: 126px;
+    top: 73px;
+    left: 93px;
+}
+.portrait {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    object-position: center center;
+}
+.paysage {
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+}
+.contain {
+    width: 70%;
+    object-fit: contain;
+    height: 65%;
+    object-position: center center;
+    top: 10%;
+    margin-left: 10%;
+}
+.bloc_prix {
+    width: 100%;
+    bottom: 15px;
+    height: 210px;
+    position: absolute;
+}
+.capsule_prix_produit {
+    width: 70px;
+    left: 15px;
+    position: absolute;
+    top: 45px;
+}
+.txt_produit {
+    font-family: museo-slab, serif;
+    font-weight: 700;
+    white-space: initial !important;
+    width: 196px;
+    position: absolute;
+    bottom: 36px;
+    left: 93px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, .5);
+    max-height: 50px;
+}
+.pictos_product {
+    position: absolute;
+    left: 13px;
+    width: 95px;
+    bottom: -8px;
+}
+.pictos_product_background {
+    background-color: #fff;
+    opacity: 0.8;
+}
+.game_product{
+    position: absolute;
+    bottom: 0px;
+    height: 100%;
+}
+#pin {
+    position: absolute;
+    top: 205px;
+    left: 27px;
+    width: 17px;
+}
+#adresse {
+    position: absolute;
+    top: 198px;
+    left: 48px;
+    font-family: 'TT Norms';
+    color: #ffffff;
+    font-size: 8px;
+    line-height: 10px;
+    width: 110px;
+}
+#cta {
+    position: absolute;
+    background-color: #E22019;
+    border-radius: 100px;
+    padding: 8px 0px;
+    white-space: nowrap;
+    color: #FFF;
+    bottom: 5px;
+    font-family: museo-slab, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 11px;
+    right: 45px;
+    text-transform: uppercase;
+    width: 107px;
+    text-align: center;
+}
+#legal {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 25px;
+    right: 6px;
+    bottom: 7px;
+    font-family: 'TT Norms';
+}
+#screen_description {
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    display: block;
+}
+#header_description {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 28px;
+    font-family: 'TT Norms';
+    color: #fff;
+    font-size: 15px;
+}
+.descipt_product_container {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    height: 250px;
+}
+#close {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-family: 'TT Norms';
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #fff;
+}
+
+.description_product {
+    position: absolute;
+    top: 90px;
+    text-align: left;
+    width: 300px;
+    padding: 0px 28px;
+    font-family: 'TT Norms';
+    font-weight: 700;
+    color: #fff;
+    height: 75px;
+    display: block;
+}
+
+.title_description_product {
+    font-family: museo-slab, serif;
+    font-weight: 700;
+    white-space: initial !important;
+    width: 240px;
+    position: absolute;
+    top: 20px;
+    left: 28px;
+    height: 50px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.legal_pictos {
+    position: absolute;
+    bottom: 20px;
+    width: 130px;
+    left: 28px;
+}
+
+#padding{
+        height: 50px;
+        width: 260px;
+        color: #fff;
+        padding: 10px;
+        position: absolute;
+        top: 20px;
+        left:20px;
+        font-family: museo-slab, serif;
+        font-weight: 700;
+        white-space: initial !important;
+      }

@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../graphique"
+		},
+		{
+			"path": "../../../../../Applications/MAMP/htdocs/symfony"
+		},
+		{
+			"path": "../Vers_0712"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "graphique"
+	}
+}

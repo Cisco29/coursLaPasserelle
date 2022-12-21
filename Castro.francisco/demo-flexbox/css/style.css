@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    max-width: 50%;
+    margin: auto;
+}
+
+header, nav{
+    padding:5px;
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+header nav: :nth-child(1){
+ order: 2;
+}
+header nav: :nth-child(2){
+    order: 1;
+}
+    
+    header nav: :nth-child(3){
+        order: 4
+    
+}
+header nav: :nth-child(4){
+    order: 3
+}
+.border-red{
+    border: 3px solid red;
+}
+
+.border-blue{
+    border: 3px solid blue;
+}
+
+.border-orange{
+    border: 3px solid orange;
+}
+
+.border-violet{
+    border: 3px solid violet;
+}
+
+section{
+    margin-top: 20px;
+}
+
+article{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: center;
+
+}
+.flex article{
+   flex-basis: 70; 
+   flex-wrap: nowrap;
+
+}
+
+
+    
+
+/******TEST FLEX BOX******/
+
+
+

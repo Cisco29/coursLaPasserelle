@@ -1,0 +1,87 @@
+
+/* Général */
+
+*{
+    box-sizing: border-box;
+    outline: none;
+}
+
+.container{
+
+    margin: 0 15%;
+}
+
+.flex{ 
+    display: flex;
+}
+
+/* Header */
+
+header{
+    background: url(../img/fitness.jpg);
+    background-size: cover;
+    height: 600px;
+    background-attachment: fixed;
+    
+}
+ 
+#titre{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10%;
+    
+}
+
+#logo img{
+    width: 90px;
+    padding-left: 50px;
+}
+
+#navbarre{
+    justify-content: space-between;
+
+}
+
+#navbarre a{
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+/* Main */
+
+#fitnessman{
+    /* background: url(../img/fitnessman.jpg); */
+    color: white;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../img/fitnessman.jpg) center no-repeat;
+    background-size: cover;
+    height: 350px;
+    text-align: center;
+}
+
+#fitnessman h3, h2{
+    margin-top: 0;
+}
+
+
+#fitnesswoman{
+    color: white;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../img/fitnesswoman.jpg) center no-repeat;
+    background-size: cover;
+    height: 350px;
+    text-align: center;
+}
+
+.objectif{
+    text-align: center;
+}
+
+
+
+/* footer */
+ 
+
+
+    

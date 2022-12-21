@@ -1,0 +1,5 @@
+
+var conf = {"site_token":"gama-grletel-letel17"}
+if(window.mics && window.mics._setConfig){mics._setConfig(conf)};
+
+        

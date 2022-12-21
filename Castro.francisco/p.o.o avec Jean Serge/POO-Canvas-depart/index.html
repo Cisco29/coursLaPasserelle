@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painter - logiciel de dessin en ligne</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Protoshop CC 3000</h1>
+        <div class="row">
+            <div class="col w80">
+                <div id="tools-panel">
+                    <button class="btn btn-icon btn-icon-circle"></button>
+                    <button class="btn btn-icon btn-icon-rectangle"></button>
+                    <button class="btn btn-icon btn-icon-triangle"></button>
+                    <button class="btn btn-icon"></button>
+                    <button class="btn btn-icon"></button>
+                    <button class="btn btn-icon"></button>
+                    <button class="btn btn-icon"></button>
+                    <button class="btn btn-icon"></button>
+                    <button class="btn btn-icon"></button>
+                    <button class="btn btn-icon"></button>
+                    <button class="btn btn-icon"></button>
+                    <button class="btn btn-icon"></button>
+                    <div id="fill-color"></div>
+                    <div id="stroke-color"></div>
+                </div>
+            </div>
+            <div class="col">
+                <canvas id="canvas"></canvas>
+            </div>
+        </div>
+    </div>
+    <script src="./node_modules/vanilla-picker/dist/vanilla-picker.js"></script>
+    <script src="./assets/js/painter.js" type="module"></script>
+</body>
+</html>
